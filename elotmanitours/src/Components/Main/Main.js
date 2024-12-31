@@ -1,7 +1,7 @@
 import React from "react";
 import './main.css';
 
-const Main=()=>{
+const Main = () => {
     return(
         <di>Main</di>
     )

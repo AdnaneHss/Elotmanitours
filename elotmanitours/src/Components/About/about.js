@@ -1,10 +1,10 @@
 import React from "react";
-import './footer.css';
+import './about.css';
 
-const Footer = () => {
+const About =() => {
     return(
         <di>Footer</di>
     )
 }
 
-export default Footer;
+export default About;

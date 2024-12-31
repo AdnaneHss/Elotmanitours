@@ -4,7 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", serif;
+  font-family: "Poppins",sans-serif;
+  transition:.3s ease;
 }
 
 
@@ -38,14 +39,13 @@ li{
 .grid{
   display: grid;
   align-items: center;
-}
+} 
 
 .btn{
-  padding: .6rem 1.5rem;
-  background: linear-gradient(to right,hsl(187,85%,43%),hsl(199,100%,33%));
+  padding: .4rem 1.5rem;
+  background: linear-gradient(to right,rgb(69,191,255),rgb(6, 108, 162));
   border: none;
   border-radius: 3rem;
-  border: none;
   outline: none;
   cursor: pointer;
 }
@@ -54,17 +54,38 @@ li{
   color:white;
   font-weight: 500;
 }
+.btn:hover a{
+    color: white;
+}
 
 .btn:hover{
   background:rgb(16, 181, 203) ;
 }
+
+.secIntro{
+  max-width:70%;
+  text-align: center;
+  margin: 0 auto 2rem;
+}
+
+.secIntro .secTitle{
+  color:black;
+  line-height:1.5rem;
+  padding-bottom: .5rem;
+
+}
+
+.secIntro p{
+      font-size:13px;
+      color:hsl(240, 1%, 48%);
+      font-weight: 500;
+}
+
+
 img,video{
-   width:100%;
+   width:150PX;
    height: auto;
 }
 input{
   font-size: 100%;
-}
-body{
-  background:rgb(240, 240, 246);
 }
