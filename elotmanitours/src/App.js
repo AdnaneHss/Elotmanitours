@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Home/>
     
      
     </>
@@ -17,7 +18,7 @@ function App() {
 }
 
 export default App;
-/*<Home/>
+/*
     <Main/>
     <Footer/>
     <About/>

@@ -123,5 +123,8 @@
     .toggleNavbar,
     .closeNavbar {
         display: none;
+        color:white;
+        font-size: 25px;
+       
     }
 }
